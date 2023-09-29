@@ -14,7 +14,7 @@ int main (){
         fgets(sobrenome, 43, stdin);
         for(int posicao = 0; posicao < strleng(sobrenome); posicao++){
             char letra = sobrenome[posicao];
-            if(letra != 'A' && letra != "E"  letra != "I" && letra != "E" && letra != "O" && letra != "U" && letra != 'a' && letra != "e" && letra != "i" && letra != "o" && letra != "u"){
+            if(letra != 'A' && letra != "E" && letra != "I" && letra != "E" && letra != "O" && letra != "U" && letra != 'a' && letra != "e" && letra != "i" && letra != "o" && letra != "u"){
                 consoantesconsecutivas++;
                 if(consoantesconsecutivas >= 3){
                     printf("%s nao eh facil\n", sobrenome);
