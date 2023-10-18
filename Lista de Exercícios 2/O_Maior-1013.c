@@ -5,7 +5,7 @@ int main(){
     int a, b, c, maior;
 
 
-    scanf("%d, %d, %d", a, b, c);
+    scanf("%d %d %d", &a, &b, &c);
 
     
     maior = (a + b + abs ( a - b ) ) / 2;

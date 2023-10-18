@@ -7,10 +7,11 @@ int main(){
 
 
     for (int i = 0; i < 6; i++){
-        scanf("%.1f", &valor);
+        scanf("%f", &valor);
         if(valor > 0){
             NumeroDePositivos++;
             SomaDosPositivos = SomaDosPositivos + valor;
+            valor = 0;
         }
             
     }
